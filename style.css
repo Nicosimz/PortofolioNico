@@ -28,6 +28,13 @@ footer {
 .container {
     height: 200vh; /* Ensure there's enough space for scrolling */
 }
+.left {
+    transform: translateX(-20px); /* Start off-screen to the left */
+}
+
+.right {
+    transform: translateX(20px); /* Start off-screen to the right */
+}
 
 .fade-in-element {
     opacity: 0;
