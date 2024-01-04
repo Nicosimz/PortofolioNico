@@ -20,14 +20,13 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             fadeElement.classList.remove('show');
         }
-    }
-
-     if (isInViewport(imageElement)) {
+        
+         if (isInViewport(imageElement)) {
             imageElement.classList.add('show');
         } else {
             imageElement.classList.remove('show');
         }
-
+    }
     // Attach the handleScroll function to the scroll event
     window.addEventListener('scroll', handleScroll);
 
